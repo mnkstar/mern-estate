@@ -185,7 +185,7 @@ function Profile() {
           {loading ? "Loading..." : "Update your profile"}
         </button>
        <Link className="bg-green-700 text-white font-semibold p-3 rounded-lg uppercase text-center hover:opacity-90" to={'/create-listing'}>
-       Create Listinng
+       Create Listing
        </Link>
       </form>
       <div className="flex justify-between mt-2">
