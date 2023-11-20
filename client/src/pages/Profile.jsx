@@ -260,9 +260,11 @@ function Profile() {
           <button onClick={()=>handleListingDelete(listing._id)} className="text-red-700 uppercase font-semibold">
               Delete
           </button>
+          <Link to={`/edit-listing/${listing._id}`}>
           <button className="text-green-700 uppercase font-semibold">
              Edit
           </button>
+          </Link>
          </div>
           </div>))}
         </div>
